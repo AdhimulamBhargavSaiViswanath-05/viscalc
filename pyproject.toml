@@ -26,6 +26,19 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Education",
 ]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/AdhimulamBhargavSaiViswanath-05/viscalc"
+Repository = "https://github.com/AdhimulamBhargavSaiViswanath-05/viscalc"
+"Bug Tracker" = "https://github.com/AdhimulamBhargavSaiViswanath-05/viscalc/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.0",
+    "build>=1.0",
+    "twine>=5.0"
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
