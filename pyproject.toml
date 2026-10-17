@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
 authors = [
-    {name = "Bhargav Sai Viswanath Adhimulam"}
+    {name = "Adhimulam Bhargav Sai Viswanath"}
 ]
 keywords = ["calculator", "math", "learning", "education"]
 classifiers = [
